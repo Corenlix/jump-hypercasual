@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdd62b4bc63b29f4b99fe98d33f50466, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  platformCreator: {fileID: 11400000, guid: 4fec3742490d7914a8b2e26be6da6486, type: 2}
+  bonusCreator: {fileID: 11400000, guid: 3fc8ec9d14aa16147bc270961f7f9e17, type: 2}
+  bonusSpawnChance: 5
+  colors:
+  - category: 0
+    color: {r: 0.9882353, g: 0.7921569, b: 0.27450982, a: 1}
+  - category: 1
+    color: {r: 0.13725491, g: 0.23921569, b: 0.3019608, a: 1}
+  - category: 2
+    color: {r: 0.38039216, g: 0.60784316, b: 0.5411765, a: 0.29803923}
+  - category: 3
+    color: {r: 0.6313726, g: 0.75686276, b: 0.5058824, a: 1}
+  - category: 4
+    color: {r: 0.9882353, g: 0.91493213, b: 0.72141176, a: 0}
+  - category: 5
+    color: {r: 0.98823535, g: 0.91372555, b: 0.72156864, a: 1}
+  platformsCount: 45
+  distanceBetweenPlatforms: 4
+  pipeCreator: {fileID: 11400000, guid: 93274ed05eca4f2459bf0309b8427cb5, type: 2}

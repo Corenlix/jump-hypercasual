@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdd62b4bc63b29f4b99fe98d33f50466, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  platformCreator: {fileID: 11400000, guid: be372ba35518565499ad858d805ddfee, type: 2}
+  bonusCreator: {fileID: 11400000, guid: 3fc8ec9d14aa16147bc270961f7f9e17, type: 2}
+  bonusSpawnChance: 5
+  colors:
+  - category: 0
+    color: {r: 0.22745098, g: 0.5254902, b: 1, a: 1}
+  - category: 1
+    color: {r: 1, g: 0, b: 0.43137255, a: 1}
+  - category: 2
+    color: {r: 0.5137255, g: 0.21960784, b: 0.9254902, a: 0.29803923}
+  - category: 3
+    color: {r: 1, g: 0.74509805, b: 0.043137256, a: 1}
+  - category: 4
+    color: {r: 0.68799996, g: 0.80867916, b: 1, a: 1}
+  - category: 5
+    color: {r: 0.723, g: 0.8301067, b: 1, a: 1}
+  platformsCount: 45
+  distanceBetweenPlatforms: 3
+  pipeCreator: {fileID: 11400000, guid: 93274ed05eca4f2459bf0309b8427cb5, type: 2}

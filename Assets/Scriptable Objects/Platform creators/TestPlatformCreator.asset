@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5f0bca744fe1af4aa77d17dd0ed5351, type: 3}
+  m_Name: TestPlatformCreator
+  m_EditorClassIdentifier: 
+  platformTemplates:
+  - {fileID: 5632484848819216443, guid: b92893f43d6ec304b8692a896169664f, type: 3}
+  - {fileID: 5139413699160496810, guid: 6e367937c6f003c44bb3443aa7851fcd, type: 3}
+  - {fileID: 1023601900479940145, guid: d0dbe0f3531001d49bf9c7c7c2536d63, type: 3}
+  safetyPlatform: {fileID: 1974757989338565270, guid: 7209d579dc05eaa478f8cc114c0264be,
+    type: 3}
+  finalPlatform: {fileID: 3055114715802459536, guid: 21eb7bbf4221c8047beb09ea21fcc4dc,
+    type: 3}
